@@ -17,8 +17,8 @@ import com.vaadin.flow.theme.Theme;
  *
  */
 @SpringBootApplication
-@Theme(value = "myapp")
-@PWA(name = "My App", shortName = "My App", offlineResources = {"images/logo.png"})
+@Theme(value = "vaadingroceryapp")
+@PWA(name = "Vaadin Grocery App", shortName = "Vaadin Grocery App", offlineResources = {"images/logo.png"})
 public class Application extends SpringBootServletInitializer implements AppShellConfigurator {
 
     public static void main(String[] args) {

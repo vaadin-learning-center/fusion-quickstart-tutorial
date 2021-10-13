@@ -1,5 +1,5 @@
 import { Route } from '@vaadin/router';
-import './views/helloworld/hello-world-view';
+import './views/grocery/grocery-view';
 import './views/main-layout';
 
 export type ViewRoute = Route & {
@@ -12,25 +12,15 @@ export const views: ViewRoute[] = [
   // place routes below (more info https://vaadin.com/docs/latest/fusion/routing/overview)
   {
     path: '',
-    component: 'hello-world-view',
+    component: 'grocery-view',
     icon: '',
     title: '',
   },
   {
-    path: 'hello',
-    component: 'hello-world-view',
-    icon: 'la la-globe',
-    title: 'Hello World',
-  },
-  {
-    path: 'about',
-    component: 'about-view',
-    icon: 'la la-file',
-    title: 'About',
-    action: async (_context, _command) => {
-      await import('./views/about/about-view');
-      return;
-    },
+    path: 'grocery',
+    component: 'grocery-view',
+    icon: 'la la-list-alt',
+    title: 'Grocery',
   },
 ];
 export const routes: ViewRoute[] = [

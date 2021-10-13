@@ -1,0 +1,1374 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "message": "Using hooks from: C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial\\pnpmfile.js",
+    "prefix": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial"
+  },
+  "2 info pnpm": {
+    "message": "readPackage hook is declared. Manifests of dependencies might get overridden",
+    "prefix": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial"
+  },
+  "3 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "no-name",
+      "license": "UNLICENSED",
+      "dependencies": {
+        "@adobe/lit-mobx": "2.0.0-rc.4",
+        "@polymer/iron-icon": "3.0.1",
+        "@polymer/iron-list": "3.1.0",
+        "@polymer/polymer": "3.2.0",
+        "@vaadin/flow-frontend": "./target/flow-frontend",
+        "@vaadin/form": "./target/flow-frontend/form",
+        "@vaadin/router": "1.7.4",
+        "@vaadin/vaadin-accordion": "21.0.2",
+        "@vaadin/vaadin-app-layout": "21.0.2",
+        "@vaadin/vaadin-avatar": "21.0.2",
+        "@vaadin/vaadin-board": "21.0.2",
+        "@vaadin/vaadin-button": "21.0.2",
+        "@vaadin/vaadin-charts": "21.0.2",
+        "@vaadin/vaadin-checkbox": "21.0.2",
+        "@vaadin/vaadin-combo-box": "21.0.2",
+        "@vaadin/vaadin-confirm-dialog": "21.0.2",
+        "@vaadin/vaadin-context-menu": "21.0.2",
+        "@vaadin/vaadin-cookie-consent": "21.0.2",
+        "@vaadin/vaadin-core-shrinkwrap": "21.0.2",
+        "@vaadin/vaadin-crud": "21.0.2",
+        "@vaadin/vaadin-custom-field": "21.0.2",
+        "@vaadin/vaadin-date-picker": "21.0.2",
+        "@vaadin/vaadin-date-time-picker": "21.0.2",
+        "@vaadin/vaadin-details": "21.0.2",
+        "@vaadin/vaadin-dialog": "21.0.2",
+        "@vaadin/vaadin-form-layout": "21.0.2",
+        "@vaadin/vaadin-grid": "21.0.2",
+        "@vaadin/vaadin-grid-pro": "21.0.2",
+        "@vaadin/vaadin-icon": "21.0.2",
+        "@vaadin/vaadin-icons": "21.0.2",
+        "@vaadin/vaadin-item": "21.0.2",
+        "@vaadin/vaadin-list-box": "21.0.2",
+        "@vaadin/vaadin-login": "21.0.2",
+        "@vaadin/vaadin-lumo-styles": "21.0.2",
+        "@vaadin/vaadin-material-styles": "21.0.2",
+        "@vaadin/vaadin-menu-bar": "21.0.2",
+        "@vaadin/vaadin-messages": "21.0.2",
+        "@vaadin/vaadin-notification": "21.0.2",
+        "@vaadin/vaadin-number-field": "21.0.2",
+        "@vaadin/vaadin-ordered-layout": "21.0.2",
+        "@vaadin/vaadin-progress-bar": "21.0.2",
+        "@vaadin/vaadin-radio-button": "21.0.2",
+        "@vaadin/vaadin-rich-text-editor": "21.0.2",
+        "@vaadin/vaadin-select": "21.0.2",
+        "@vaadin/vaadin-shrinkwrap": "21.0.2",
+        "@vaadin/vaadin-split-layout": "21.0.2",
+        "@vaadin/vaadin-tabs": "21.0.2",
+        "@vaadin/vaadin-template-renderer": "21.0.2",
+        "@vaadin/vaadin-text-field": "21.0.2",
+        "@vaadin/vaadin-time-picker": "21.0.2",
+        "@vaadin/vaadin-upload": "21.0.2",
+        "@vaadin/vaadin-virtual-list": "21.0.2",
+        "construct-style-sheets-polyfill": "2.4.16",
+        "line-awesome": "1.3.0",
+        "lit": "2.0.0-rc.4",
+        "mobx": "^6.3.3"
+      },
+      "devDependencies": {
+        "@types/validator": "13.1.0",
+        "@vaadin/application-theme-plugin": "./target/plugins/application-theme-plugin",
+        "@vaadin/stats-plugin": "./target/plugins/stats-plugin",
+        "@vaadin/theme-live-reload-plugin": "./target/plugins/theme-live-reload-plugin",
+        "@vaadin/theme-loader": "./target/plugins/theme-loader",
+        "chokidar": "^3.5.0",
+        "compression-webpack-plugin": "4.0.1",
+        "css-loader": "4.2.1",
+        "extra-watch-webpack-plugin": "1.0.3",
+        "extract-loader": "5.1.0",
+        "file-loader": "6.2.0",
+        "fork-ts-checker-webpack-plugin": "6.2.1",
+        "glob": "7.1.6",
+        "html-webpack-plugin": "4.5.1",
+        "lit-css-loader": "0.1.0",
+        "loader-utils": "2.0.0",
+        "ts-loader": "8.0.12",
+        "typescript": "4.3.3",
+        "validator": "13.1.17",
+        "webpack": "4.46.0",
+        "webpack-cli": "3.3.12",
+        "webpack-dev-server": "3.11.0",
+        "webpack-manifest-plugin": "3.0.0",
+        "webpack-merge": "4.2.2",
+        "workbox-core": "6.2.0",
+        "workbox-precaching": "6.2.0",
+        "workbox-webpack-plugin": "6.2.0"
+      },
+      "vaadin": {
+        "dependencies": {
+          "@polymer/iron-icon": "3.0.1",
+          "@polymer/iron-list": "3.1.0",
+          "@polymer/polymer": "3.2.0",
+          "@vaadin/router": "1.7.4",
+          "@vaadin/vaadin-accordion": "21.0.2",
+          "@vaadin/vaadin-app-layout": "21.0.2",
+          "@vaadin/vaadin-avatar": "21.0.2",
+          "@vaadin/vaadin-board": "21.0.2",
+          "@vaadin/vaadin-button": "21.0.2",
+          "@vaadin/vaadin-charts": "21.0.2",
+          "@vaadin/vaadin-checkbox": "21.0.2",
+          "@vaadin/vaadin-combo-box": "21.0.2",
+          "@vaadin/vaadin-confirm-dialog": "21.0.2",
+          "@vaadin/vaadin-context-menu": "21.0.2",
+          "@vaadin/vaadin-cookie-consent": "21.0.2",
+          "@vaadin/vaadin-core-shrinkwrap": "21.0.2",
+          "@vaadin/vaadin-crud": "21.0.2",
+          "@vaadin/vaadin-custom-field": "21.0.2",
+          "@vaadin/vaadin-date-picker": "21.0.2",
+          "@vaadin/vaadin-date-time-picker": "21.0.2",
+          "@vaadin/vaadin-details": "21.0.2",
+          "@vaadin/vaadin-dialog": "21.0.2",
+          "@vaadin/vaadin-form-layout": "21.0.2",
+          "@vaadin/vaadin-grid": "21.0.2",
+          "@vaadin/vaadin-grid-pro": "21.0.2",
+          "@vaadin/vaadin-icon": "21.0.2",
+          "@vaadin/vaadin-icons": "21.0.2",
+          "@vaadin/vaadin-item": "21.0.2",
+          "@vaadin/vaadin-list-box": "21.0.2",
+          "@vaadin/vaadin-login": "21.0.2",
+          "@vaadin/vaadin-lumo-styles": "21.0.2",
+          "@vaadin/vaadin-material-styles": "21.0.2",
+          "@vaadin/vaadin-menu-bar": "21.0.2",
+          "@vaadin/vaadin-messages": "21.0.2",
+          "@vaadin/vaadin-notification": "21.0.2",
+          "@vaadin/vaadin-ordered-layout": "21.0.2",
+          "@vaadin/vaadin-progress-bar": "21.0.2",
+          "@vaadin/vaadin-radio-button": "21.0.2",
+          "@vaadin/vaadin-rich-text-editor": "21.0.2",
+          "@vaadin/vaadin-select": "21.0.2",
+          "@vaadin/vaadin-shrinkwrap": "21.0.2",
+          "@vaadin/vaadin-split-layout": "21.0.2",
+          "@vaadin/vaadin-tabs": "21.0.2",
+          "@vaadin/vaadin-template-renderer": "21.0.2",
+          "@vaadin/vaadin-text-field": "21.0.2",
+          "@vaadin/vaadin-time-picker": "21.0.2",
+          "@vaadin/vaadin-upload": "21.0.2",
+          "@vaadin/vaadin-virtual-list": "21.0.2",
+          "construct-style-sheets-polyfill": "2.4.16",
+          "lit": "2.0.0-rc.4"
+        },
+        "devDependencies": {
+          "@types/validator": "13.1.0",
+          "chokidar": "^3.5.0",
+          "compression-webpack-plugin": "4.0.1",
+          "css-loader": "4.2.1",
+          "extra-watch-webpack-plugin": "1.0.3",
+          "extract-loader": "5.1.0",
+          "file-loader": "6.2.0",
+          "fork-ts-checker-webpack-plugin": "6.2.1",
+          "glob": "7.1.6",
+          "html-webpack-plugin": "4.5.1",
+          "lit-css-loader": "0.1.0",
+          "loader-utils": "2.0.0",
+          "ts-loader": "8.0.12",
+          "typescript": "4.3.3",
+          "validator": "13.1.17",
+          "webpack": "4.46.0",
+          "webpack-cli": "3.3.12",
+          "webpack-dev-server": "3.11.0",
+          "webpack-manifest-plugin": "3.0.0",
+          "webpack-merge": "4.2.2",
+          "workbox-core": "6.2.0",
+          "workbox-precaching": "6.2.0",
+          "workbox-webpack-plugin": "6.2.0"
+        },
+        "hash": "caed04f8ec034927b5102a81eb2a174817df5760ee0009f38e8e9b9c9a1d5e7a"
+      }
+    },
+    "prefix": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial"
+  },
+  "4 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "C:\\Users\\Tarek Oraby\\.pnpm-store\\v3",
+    "virtualStoreDir": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial\\node_modules\\.pnpm"
+  },
+  "5 debug pnpm:stage": {
+    "prefix": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "stage": "resolution_started"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/validator/13.1.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/validator",
+      "rawSpec": "13.1.0"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/validator/13.1.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/extra-watch-webpack-plugin/1.0.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "extra-watch-webpack-plugin",
+      "rawSpec": "1.0.3"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/extra-watch-webpack-plugin/1.0.3",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/extract-loader/5.1.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "extract-loader",
+      "rawSpec": "5.1.0"
+    }
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/extract-loader/5.1.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/compression-webpack-plugin/4.0.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "compression-webpack-plugin",
+      "rawSpec": "4.0.1"
+    }
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/compression-webpack-plugin/4.0.1",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "14 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/css-loader/4.2.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "css-loader",
+      "rawSpec": "4.2.1"
+    }
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/css-loader/4.2.1",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "16 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/lit-css-loader/0.1.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "lit-css-loader",
+      "rawSpec": "0.1.0"
+    }
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lit-css-loader/0.1.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "18 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/glob/7.1.6",
+    "wanted": {
+      "dependentId": ".",
+      "name": "glob",
+      "rawSpec": "7.1.6"
+    }
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/glob/7.1.6",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "20 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/file-loader/6.2.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "file-loader",
+      "rawSpec": "6.2.0"
+    }
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/file-loader/6.2.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "22 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/loader-utils/2.0.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "loader-utils",
+      "rawSpec": "2.0.0"
+    }
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/loader-utils/2.0.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "24 debug pnpm:_dependency_resolved": {
+    "resolution": "link:target/plugins/theme-live-reload-plugin",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/theme-live-reload-plugin",
+      "rawSpec": "./target/plugins/theme-live-reload-plugin"
+    }
+  },
+  "25 debug pnpm:_dependency_resolved": {
+    "resolution": "link:target/plugins/application-theme-plugin",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/application-theme-plugin",
+      "rawSpec": "./target/plugins/application-theme-plugin"
+    }
+  },
+  "26 debug pnpm:_dependency_resolved": {
+    "resolution": "link:target/plugins/theme-loader",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/theme-loader",
+      "rawSpec": "./target/plugins/theme-loader"
+    }
+  },
+  "27 debug pnpm:_dependency_resolved": {
+    "resolution": "link:target/plugins/stats-plugin",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/stats-plugin",
+      "rawSpec": "./target/plugins/stats-plugin"
+    }
+  },
+  "28 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/html-webpack-plugin/4.5.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "html-webpack-plugin",
+      "rawSpec": "4.5.1"
+    }
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/html-webpack-plugin/4.5.1",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "30 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fork-ts-checker-webpack-plugin/6.2.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "fork-ts-checker-webpack-plugin",
+      "rawSpec": "6.2.1"
+    }
+  },
+  "31 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fork-ts-checker-webpack-plugin/6.2.1",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "32 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/validator/13.1.17",
+    "wanted": {
+      "dependentId": ".",
+      "name": "validator",
+      "rawSpec": "13.1.17"
+    }
+  },
+  "33 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/validator/13.1.17",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "34 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ts-loader/8.0.12",
+    "wanted": {
+      "dependentId": ".",
+      "name": "ts-loader",
+      "rawSpec": "8.0.12"
+    }
+  },
+  "35 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ts-loader/8.0.12",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "36 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/webpack-cli/3.3.12",
+    "wanted": {
+      "dependentId": ".",
+      "name": "webpack-cli",
+      "rawSpec": "3.3.12"
+    }
+  },
+  "37 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/webpack-cli/3.3.12",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "38 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/webpack-dev-server/3.11.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "webpack-dev-server",
+      "rawSpec": "3.11.0"
+    }
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/webpack-dev-server/3.11.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "40 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/webpack-manifest-plugin/3.0.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "webpack-manifest-plugin",
+      "rawSpec": "3.0.0"
+    }
+  },
+  "41 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/webpack-manifest-plugin/3.0.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "42 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/webpack-merge/4.2.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "webpack-merge",
+      "rawSpec": "4.2.2"
+    }
+  },
+  "43 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/webpack-merge/4.2.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "44 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@adobe/lit-mobx/2.0.0-rc.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@adobe/lit-mobx",
+      "rawSpec": "2.0.0-rc.4"
+    }
+  },
+  "45 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@adobe/lit-mobx/2.0.0-rc.4",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "46 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/workbox-core/6.2.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "workbox-core",
+      "rawSpec": "6.2.0"
+    }
+  },
+  "47 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/workbox-core/6.2.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "48 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/workbox-precaching/6.2.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "workbox-precaching",
+      "rawSpec": "6.2.0"
+    }
+  },
+  "49 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/workbox-precaching/6.2.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "50 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/workbox-webpack-plugin/6.2.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "workbox-webpack-plugin",
+      "rawSpec": "6.2.0"
+    }
+  },
+  "51 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/workbox-webpack-plugin/6.2.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "52 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@polymer/iron-icon/3.0.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@polymer/iron-icon",
+      "rawSpec": "3.0.1"
+    }
+  },
+  "53 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@polymer/iron-icon/3.0.1",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "54 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@polymer/iron-list/3.1.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@polymer/iron-list",
+      "rawSpec": "3.1.0"
+    }
+  },
+  "55 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@polymer/iron-list/3.1.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "56 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@polymer/polymer/3.2.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@polymer/polymer",
+      "rawSpec": "3.2.0"
+    }
+  },
+  "57 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@polymer/polymer/3.2.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "58 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/webpack/4.46.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "webpack",
+      "rawSpec": "4.46.0"
+    }
+  },
+  "59 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/webpack/4.46.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "60 debug pnpm:_dependency_resolved": {
+    "resolution": "link:target/flow-frontend/form",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/form",
+      "rawSpec": "./target/flow-frontend/form"
+    }
+  },
+  "61 debug pnpm:_dependency_resolved": {
+    "resolution": "link:target/flow-frontend",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/flow-frontend",
+      "rawSpec": "./target/flow-frontend"
+    }
+  },
+  "62 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/router/1.7.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/router",
+      "rawSpec": "1.7.4"
+    }
+  },
+  "63 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/router/1.7.4",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "64 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-accordion/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-accordion",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "65 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-accordion/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "66 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-app-layout/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-app-layout",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "67 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-app-layout/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "68 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-avatar/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-avatar",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "69 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-avatar/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "70 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-board/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-board",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "71 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-board/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "72 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-charts/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-charts",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "73 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-charts/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "74 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-button/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-button",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "75 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-button/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "76 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-checkbox/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-checkbox",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "77 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-checkbox/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "78 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-combo-box/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-combo-box",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "79 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-combo-box/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "80 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-confirm-dialog/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-confirm-dialog",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "81 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-confirm-dialog/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "82 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-context-menu/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-context-menu",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "83 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-context-menu/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "84 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-cookie-consent/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-cookie-consent",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "85 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-cookie-consent/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "86 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-crud/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-crud",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "87 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-crud/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "88 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-date-picker/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-date-picker",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "89 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-date-picker/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "90 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-custom-field/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-custom-field",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "91 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-custom-field/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "92 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-date-time-picker/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-date-time-picker",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "93 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-date-time-picker/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "94 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-details/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-details",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "95 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-details/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "96 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-dialog/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-dialog",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "97 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-dialog/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "98 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-form-layout/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-form-layout",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "99 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-form-layout/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "100 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-icon/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-icon",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "101 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-icon/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "102 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-grid-pro/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-grid-pro",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "103 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-grid-pro/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "104 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-grid/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-grid",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "105 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-grid/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "106 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/typescript/4.3.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "typescript",
+      "rawSpec": "4.3.3"
+    }
+  },
+  "107 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/4.3.3",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "108 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-icons/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-icons",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "109 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-icons/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "110 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-item/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-item",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "111 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-item/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "112 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-core-shrinkwrap/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-core-shrinkwrap",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "113 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-core-shrinkwrap/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "114 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chokidar/3.5.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "chokidar",
+      "rawSpec": "^3.5.0"
+    }
+  },
+  "115 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chokidar/3.5.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "116 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-list-box/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-list-box",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "117 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-list-box/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "118 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-login/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-login",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "119 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-login/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "120 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-lumo-styles/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-lumo-styles",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "121 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-lumo-styles/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "122 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-material-styles/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-material-styles",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "123 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-material-styles/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "124 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-messages/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-messages",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "125 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-messages/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "126 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-menu-bar/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-menu-bar",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "127 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-menu-bar/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "128 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-notification/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-notification",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "129 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-notification/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "130 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-ordered-layout/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-ordered-layout",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "131 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-ordered-layout/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "132 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-progress-bar/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-progress-bar",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "133 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-progress-bar/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "134 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-radio-button/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-radio-button",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "135 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-radio-button/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "136 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-rich-text-editor/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-rich-text-editor",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "137 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-rich-text-editor/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "138 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/validator/13.1.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "139 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/extra-watch-webpack-plugin/1.0.3",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "140 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-select/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-select",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "141 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-select/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "142 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-split-layout/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-split-layout",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "143 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-split-layout/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "144 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/compression-webpack-plugin/4.0.1",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "145 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-tabs/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-tabs",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "146 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-tabs/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "147 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-template-renderer/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-template-renderer",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "148 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-template-renderer/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "149 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/css-loader/4.2.1",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "150 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/extract-loader/5.1.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "151 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/glob/7.1.6",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "152 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-shrinkwrap/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-shrinkwrap",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "153 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-shrinkwrap/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "154 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-text-field/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-text-field",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "155 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-text-field/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "156 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-time-picker/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-time-picker",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "157 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-time-picker/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "158 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-upload/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-upload",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "159 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-upload/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "160 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vaadin/vaadin-virtual-list/21.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vaadin/vaadin-virtual-list",
+      "rawSpec": "21.0.2"
+    }
+  },
+  "161 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vaadin/vaadin-virtual-list/21.0.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "162 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/line-awesome/1.3.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "line-awesome",
+      "rawSpec": "1.3.0"
+    }
+  },
+  "163 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/line-awesome/1.3.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "164 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/lit/2.0.0-rc.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "lit",
+      "rawSpec": "2.0.0-rc.4"
+    }
+  },
+  "165 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lit/2.0.0-rc.4",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "166 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/construct-style-sheets-polyfill/2.4.16",
+    "wanted": {
+      "dependentId": ".",
+      "name": "construct-style-sheets-polyfill",
+      "rawSpec": "2.4.16"
+    }
+  },
+  "167 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/construct-style-sheets-polyfill/2.4.16",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "168 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lit-css-loader/0.1.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "169 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/file-loader/6.2.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "170 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/loader-utils/2.0.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "171 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/html-webpack-plugin/4.5.1",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "172 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fork-ts-checker-webpack-plugin/6.2.1",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "173 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/mobx/6.3.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "mobx",
+      "rawSpec": "^6.3.3"
+    }
+  },
+  "174 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mobx/6.3.3",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "resolved"
+  },
+  "175 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/validator/13.1.17",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "176 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ts-loader/8.0.12",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "177 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/webpack-dev-server/3.11.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "178 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/webpack-cli/3.3.12",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "179 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/webpack-merge/4.2.2",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "180 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/webpack-manifest-plugin/3.0.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "181 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@adobe/lit-mobx/2.0.0-rc.4",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "182 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/workbox-core/6.2.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "183 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/workbox-precaching/6.2.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "184 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@polymer/iron-icon/3.0.1",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "185 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/workbox-webpack-plugin/6.2.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "186 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@polymer/iron-list/3.1.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "187 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@polymer/polymer/3.2.0",
+    "requester": "C:\\dev\\vaadin-learning-center\\fusion-quickstart-tutorial",
+    "status": "found_in_store"
+  },
+  "188 error pnpm": {
+    "message": {
+      "code": "ERR_PNPM_FETCH_404",
+      "hint": "@vaadin/vaadin-number-field is not in the npm registry, or you have no permission to fetch it.\n\nAn authorization header was used: Bearer 2dee[hidden]",
+      "request": {
+        "authHeaderValue": "Bearer 2deed02c-1f74-4623-ac67-fe69c2ab6496",
+        "url": "https://registry.npmjs.org/@vaadin%2Fvaadin-number-field"
+      },
+      "response": {
+        "size": 0,
+        "timeout": 0
+      },
+      "pkgName": "@vaadin/vaadin-number-field",
+      "pkgsStack": []
+    },
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/@vaadin%2Fvaadin-number-field: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "Error: GET https://registry.npmjs.org/@vaadin%2Fvaadin-number-field: Not Found - 404\n    at RetryOperation._fn (C:\\npm-cache\\_npx\\6926b1ac96192030\\node_modules\\pnpm\\dist\\pnpm.js:72284:16)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  }
+}
