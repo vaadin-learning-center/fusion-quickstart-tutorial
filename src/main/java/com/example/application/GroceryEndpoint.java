@@ -17,8 +17,8 @@ public class GroceryEndpoint {
         return groceryList;
     }
 
-    public GroceryItem save(GroceryItem customer) {
-        groceryList.add(customer);
-        return customer;
+    public GroceryItem save(GroceryItem item) {
+        groceryList.add(item);
+        return item;
     }
 }
