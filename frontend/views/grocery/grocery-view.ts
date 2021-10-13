@@ -41,14 +41,14 @@ export class GroceryView extends View {
   }
 
   async firstUpdated() {
-    const customers = await getGroceries();
-    this.groceries = customers;
+    const groceries = await getGroceries();
+    this.groceries = groceries;
   }
 
   async addItem() {
-    const createdCustomer = await this.binder.submitTo(save);
-    if (createdCustomer) {
-      this.groceries = [...this.groceries, createdCustomer];
+    const groceryItem = await this.binder.submitTo(save);
+    if (groceryItem) {
+      this.groceries = [...this.groceries, groceryItem];
       this.binder.clear();
     }
   }
