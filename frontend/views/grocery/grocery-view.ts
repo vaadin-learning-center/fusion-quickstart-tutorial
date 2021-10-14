@@ -22,9 +22,8 @@ export class GroceryView extends View {
     return html`
       <div style="padding: 25px">
         <div>
-          <vaadin-text-field ...=${field(this.binder.model.name)} label="Item"></vaadin-text-field>
-          <vaadin-number-field
-            ...=${field(this.binder.model.quantity)}
+          <vaadin-text-field ${field(this.binder.model.name)} label="Item"></vaadin-text-field>
+          <vaadin-number-field ${field(this.binder.model.quantity)}
             has-controls
             label="Quantity"
           ></vaadin-number-field>
